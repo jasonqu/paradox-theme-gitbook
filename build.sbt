@@ -1,6 +1,5 @@
-//scalaVersion := "2.12.4"
-organization in ThisBuild := "io.github.jasonqu"
-version in ThisBuild  := "0.0.1-SNAPSHOT"
+scalaVersion := "2.12.8"
+version in ThisBuild  := "0.1.0"
 
 lazy val gitbookParadox = project
   .in(file("."))
@@ -13,11 +12,7 @@ lazy val gitbookTheme = project
   .in(file("theme"))
   .enablePlugins(ParadoxThemePlugin)
   .settings(
-    name := "paradox-theme-gitbook",
-    libraryDependencies ++= Seq(
-      //"org.webjars" % "foundation" % "6.3.1" % "provided",
-      //"org.webjars" % "prettify" % "4-Mar-2013-1" % "provided"
-    )
+    name := "paradox-theme-gitbook"
   )
 
 

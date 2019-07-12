@@ -1,7 +1,6 @@
 # Gitbook Paradox Theme
 
-For [Paradox](https://github.com/lightbend/paradox) users who also like 
-[gitbook](https://github.com/GitbookIO/gitbook) style documentation.
+A [gitbook](https://github.com/GitbookIO/gitbook) style theme for [Paradox](https://github.com/lightbend/paradox) users.
 
 ## Usage
 
@@ -9,7 +8,7 @@ For [Paradox](https://github.com/lightbend/paradox) users who also like
 in your paradox configuration:
 
 ```scala
-paradoxTheme := Some("io.github.jasonqu" % "paradox-theme-gitbook" % "<version>")
+paradoxTheme := Some("io.github.jasonqu" % "paradox-theme-gitbook" % "0.1.0")
 ```
 
 ## Todo
@@ -17,4 +16,4 @@ paradoxTheme := Some("io.github.jasonqu" % "paradox-theme-gitbook" % "<version>"
 The code is simply copied from generated gitbook code without:
 
 - Search feature (which need index generation and related js)
-- Toc - table of content
+- Toc - table of content (optional for gitbook)
